@@ -8,7 +8,10 @@
   "upstream_license": "Apache-2.0",
   "upstream_license_name": "Apache License 2.0",
   "role": "on-device speech — TTS under 25MB",
-  "note": "Forked at the commit below with its licence intact. Upstream is the source of truth; this fork is a pinned reference for the minaiml delivery catalogue.",
+  "note": "Forked through cyberpunk2051/KittenTTS, one of our own organizations, not directly from KittenML/KittenTTS. GitHub reports the immediate parent's licence as Apache-2.0 and the true upstream's as Apache-2.0; the upstream LICENSE file governs. This fork is behind both — `gh api -X POST repos/minaiml/KittenTTS/merge-upstream` only follows the immediate parent, so resyncing means adding the true upstream as a remote.",
   "estate_license": "not applicable — no estate code added to this fork",
-  "policy": "https://github.com/minaiml"
+  "policy": "https://github.com/minaiml",
+  "origin": "KittenML/KittenTTS",
+  "origin_url": "https://github.com/KittenML/KittenTTS",
+  "origin_license": "Apache-2.0"
 }
